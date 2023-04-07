@@ -1,0 +1,9 @@
+.gallery-item .removeItem{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: red;
+    font-size: 20px;
+    padding: 5px;
+    z-index: 1;
+}

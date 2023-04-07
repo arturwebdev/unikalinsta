@@ -1,0 +1,65 @@
+.Spiner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Spiner .wave {
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(45deg, cyan, #181717);
+    margin: 10px;
+    animation: wave 1s linear infinite;
+    border-radius: 20px;
+}
+
+.Spiner .wave:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.Spiner .wave:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.Spiner .wave:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.Spiner .wave:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.Spiner .wave:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.Spiner .wave:nth-child(7) {
+    animation-delay: 0.6s;
+}
+
+.Spiner .wave:nth-child(8) {
+    animation-delay: 0.7s;
+}
+
+.Spiner .wave:nth-child(9) {
+    animation-delay: 0.8s;
+}
+
+.Spiner .wave:nth-child(10) {
+    animation-delay: 0.9s;
+}
+
+@keyframes wave {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
